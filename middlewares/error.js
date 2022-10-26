@@ -3,7 +3,7 @@ import yup, { ValidationError } from 'yup';
 import { v4 as uuidv4 } from 'uuid';
 import logger from '../config/logger.js';
 
-import APIError from '../utils/ApiError.js';
+import APIError from '../utils/apiError.js';
 
 const handler = (err, req, res, next) => {
   const response = {

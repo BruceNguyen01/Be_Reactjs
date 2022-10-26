@@ -2,7 +2,7 @@
   import { UserModel } from '../models/index.js';
   import httpStatus from 'http-status';
   
-  import APIError from '../utils/ApiError.js';
+  import APIError from '../utils/apiError.js';
   import bcrypt from 'bcryptjs';
   
   const createNewUser = async(user)=>{

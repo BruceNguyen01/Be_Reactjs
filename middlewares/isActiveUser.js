@@ -1,4 +1,4 @@
-import APIError from '../utils/ApiError.js';
+import APIError from '../utils/apiError.js';
 import {
   UserModel,
   RefreshTokenModel,

@@ -5,7 +5,7 @@ import { RefreshTokenModel } from '../models/index.js';
 import moment from 'moment';
 import httpStatus from 'http-status';
 
-import APIError from '../utils/ApiError.js';
+import APIError from '../utils/apiError.js';
 
 const generateToken = async (userId, loginTime, expires, type) => {
   const payload = {
